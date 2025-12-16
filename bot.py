@@ -462,7 +462,7 @@ def main():
     print("\n Журнал работы:")
     
     try:
-        # Создаем приложение
+        # Создаем приложение (без Updater!)
         app = Application.builder().token(TELEGRAM_TOKEN).build()
         
         # Регистрируем обработчики
